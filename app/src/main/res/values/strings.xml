@@ -11,17 +11,21 @@
 	
 	<!-- варианты перезагрузки -->
 	<string name="mng_reboot_into_recovery">Recovery mode</string>
-	<string name="mng_reboot_into_recovery_desc">Turning off and switching to recovery mode </string>
+	<string name="mng_reboot_into_recovery_desc">Turning off and switching to recovery mode</string>
+	<string name="mng_reboot_into_recovery_desc_v2">Click here to perform an emergency restart in recovery mode (unstable)</string>
 	<string name="mng_reboot_into_bootloader">Bootloader</string>
 	<string name="mng_reboot_into_bootloader_desc">Disabling and switching to bootloader mode (bootloader / fastboot mode)</string>
+	<string name="mng_reboot_into_bootloader_desc_v2">Click here to perform an emergency restart in bootloader (unstable)</string>
 	<string name="mng_reboot_system">System</string>
 	<string name="mng_reboot_system_desc">Turning the device off and on (normal restart)</string>
+	<string name="mng_reboot_system_desc_v2">Click here to perform an emergency system reboot (unstable)</string>
 	<string name="mng_reboot_system_soft">System (without kernel)</string>
 	<string name="mng_reboot_system_soft_desc">Restarting the device software without affecting the kernel</string>
 	<string name="mng_safe_mode">Safe mode</string>
 	<string name="mng_safe_mode_desc">Restarting the system to safe mode</string>
 	<string name="mng_shutdown_system">Shutdown</string>
 	<string name="mng_shutdown_system_desc">Normal power off the device</string>
+	<string name="mng_shutdown_system_desc_v2">Click here to perform an emergency shutdown (unstable)</string>
 	
 	<!-- quick tiles -->
 	<string name="tile_reboot_into_recovery">Recovery</string>

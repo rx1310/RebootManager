@@ -8,8 +8,8 @@ android {
         applicationId "o1310.rx1310.app.rebootmanager"
         minSdkVersion 14
         targetSdkVersion 29
-        versionCode 200526
-        versionName "10"
+        versionCode 200528
+        versionName "11"
     }
     buildTypes {
         release {
