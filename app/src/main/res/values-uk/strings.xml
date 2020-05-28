@@ -12,16 +12,20 @@
 	<!-- варианты перезагрузки -->
 	<string name="mng_reboot_into_recovery">Режим відновлення</string>
 	<string name="mng_reboot_into_recovery_desc">Вимкнення і перехід в режим відновлення (recovery mode)</string>
+	<string name="mng_reboot_into_recovery_desc_v2">Натисніть тут, щоб виконати екстрений перезапуск в режим відновлення (нестабільно)</string>
 	<!--string name="mng_reboot_into_bootloader"></string-->
 	<string name="mng_reboot_into_bootloader_desc">Вимкнення і перехід в режим завантажувача (bootloader / fastboot mode)</string>
+	<string name="mng_reboot_into_bootloader_desc_v2">Натисніть тут, щоб виконати екстрений перезапуск в bootloader (нестабільно)</string>
 	<string name="mng_reboot_system">Система</string>
 	<string name="mng_reboot_system_desc">Вимкнення і включення пристрою (звичайна перезавантаження)</string>
+	<string name="mng_reboot_system_desc_v2">Натисніть тут, щоб виконати екстрену перезавантаження системи (нестабільно)</string>
 	<string name="mng_reboot_system_soft">Система (без ядра)</string>
 	<string name="mng_reboot_system_soft_desc">Перезавантаження програмної частини пристрою, не зачіпаючи ядро</string>
 	<string name="mng_safe_mode">Безпечний режим</string>
 	<string name="mng_safe_mode_desc">Перезавантаження програмної частини і перехід в Безпечний режим (safe_mode)</string>
 	<string name="mng_shutdown_system">Вимкнути</string>
 	<string name="mng_shutdown_system_desc">Звичайне вимикання пристрою</string>
+	<string name="mng_shutdown_system_desc_v2">Натисніть тут, щоб виконати екстрене вимкнення системи (нестабільно)</string>
 
 	<!-- quick tiles -->
 	<string name="tile_reboot_into_system_soft">Система (без ядра)</string>
