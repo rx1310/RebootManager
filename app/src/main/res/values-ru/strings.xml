@@ -12,16 +12,20 @@
 	<!-- варианты перезагрузки -->
 	<string name="mng_reboot_into_recovery">Режим восстановления</string>
 	<string name="mng_reboot_into_recovery_desc">Выключение и переход в режим восстановления (recovery mode)</string>
+	<string name="mng_reboot_into_recovery_desc_v2">Нажмите здесь, чтобы выполнить экстренный перезапуск в режим восстановления (нестабильно)</string>
 	<string name="mng_reboot_into_bootloader">Загрузчик</string>
 	<string name="mng_reboot_into_bootloader_desc">Выключение и переход в режим загрузчика (bootloader / fastboot mode)</string>
+	<string name="mng_reboot_into_bootloader_desc_v2">Нажмите здесь, чтобы выполнить экстренный перезапуск в bootloader (нестабильно)</string>
 	<string name="mng_reboot_system">Система</string>
 	<string name="mng_reboot_system_desc">Выключение и включение устройства (обычная перезагрузка)</string>
+	<string name="mng_reboot_system_desc_v2">Нажмите здесь, чтобы выполнить экстренную перезагрузку системы (нестабильно)</string>
 	<string name="mng_reboot_system_soft">Система (без ядра)</string>
 	<string name="mng_reboot_system_soft_desc">Перезагрузка программной части устройства, не затрагивая ядро</string>
 	<string name="mng_safe_mode">Безопасный режим</string>
 	<string name="mng_safe_mode_desc">Перезагрузка программной части и переход в безопасный режим (safe_mode)</string>
 	<string name="mng_shutdown_system">Выключить</string>
 	<string name="mng_shutdown_system_desc">Обычное выключение устройства</string>
+	<string name="mng_shutdown_system_desc_v2">Нажмите здесь, чтобы выполнить экстренное выключение системы (нестабильно)</string>
 	
 	<!-- quick tiles -->
 	<string name="tile_reboot_into_system_soft">Система (без ядра)</string>
