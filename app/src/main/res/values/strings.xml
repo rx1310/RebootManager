@@ -46,6 +46,9 @@
 	<string name="setting_pro_mode">«Pro» mode</string>
 	<string name="setting_pro_mode_desc">Activating advanced app features</string>
 	<string name="setting_uninstall_app">Uninstall app</string>
+	<string name="setting_assistantmode">AssistantMode</string>
+	<string name="setting_assistantmode_desc">Ability to launch RebootManager instead of Google Assistant</string>
+	<string name="setting_assistantmode_guides">Open the «Assist app» section and select RebootManager</string>
 	
 	<!-- о программе -->
 	<string name="about">About the program</string>

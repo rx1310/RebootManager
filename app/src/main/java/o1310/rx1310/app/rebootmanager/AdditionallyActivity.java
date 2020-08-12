@@ -70,6 +70,12 @@ public class AdditionallyActivity extends PreferenceActivity {
 		uninstallApp.setKey("SETTING_UNINSTALL_APP");
 		uninstallApp.setTitle(R.string.setting_uninstall_app);
 		
+		// пункт для настройки AssistantMode
+		Preference setAssistantMode = new Preference(this);
+		setAssistantMode.setKey("SETTING_ASSISTANTMODE");
+		setAssistantMode.setTitle(R.string.setting_assistantmode);
+		setAssistantMode.setSummary(R.string.setting_assistantmode_desc);
+		
 		// пункт с версией приложения
 		Preference appVersion = new Preference(this);
 		appVersion.setKey("ABOUT_APP_VERSION");
@@ -114,6 +120,10 @@ public class AdditionallyActivity extends PreferenceActivity {
 			p.addPreference(hideIcon);
 		} 
 		
+		if (Build.VERSION.SDK_INT >= 23) {
+			p.addPreference(setAssistantMode);
+		}
+		
 		p.addPreference(proMode);
 		p.addPreference(uninstallApp);
 		
@@ -133,6 +143,11 @@ public class AdditionallyActivity extends PreferenceActivity {
 
 			case "SETTING_HIDE_ICON":
 				hideIconDlg(); // вызываем диалог
+				break;
+				
+			case "SETTING_ASSISTANTMODE":
+				startActivity(new Intent(android.provider.Settings.ACTION_VOICE_INPUT_SETTINGS));
+				RebootManager.showToast(getString(R.string.setting_assistantmode_guides), this);
 				break;
 				
 			case "SETTING_UNINSTALL_APP":
