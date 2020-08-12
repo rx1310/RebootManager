@@ -44,7 +44,9 @@
 	<string name="setting_pro_mode">Режим «Pro»</string>
 	<string name="setting_pro_mode_desc">Активація розширених можливостей програми</string>
 	<string name="setting_uninstall_app">Видалити додаток</string>
-
+	<string name="setting_assistantmode_desc">Можливість запуску RebootManager замість Google Assistant</string>
+	<string name="setting_assistantmode_guides">Відкрийте розділ «Помічник» і виберіть RebootManager</string>
+	
 	<!-- о программе -->
 	<string name="about">Про програму</string>
 	<string name="info_app_version">Версія RebootManager</string>
