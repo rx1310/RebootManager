@@ -46,7 +46,9 @@
 	<string name="setting_uninstall_app">Удалить приложение</string>
 	<string name="setting_assistantmode_desc">Возможность запуска RebootManager вместо Google Assistant</string>
 	<string name="setting_assistantmode_guides">Откройте раздел «Помощник» и выберите RebootManager</string>
-
+	<string name="setting_install_in_a2iga">Установить в A2IGA</string>
+	<string name="setting_install_in_a2iga_chooser_title">Найдите и выберите «A2IGA»</string>
+	
 	<!-- о программе -->
 	<string name="about">О программе</string>
 	<string name="info_app_version">Версия RebootManager</string>
