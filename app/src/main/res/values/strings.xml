@@ -49,6 +49,8 @@
 	<string name="setting_assistantmode">AssistantMode</string>
 	<string name="setting_assistantmode_desc">Ability to launch RebootManager instead of Google Assistant</string>
 	<string name="setting_assistantmode_guides">Open the «Assist app» section and select RebootManager</string>
+	<string name="setting_install_in_a2iga">Install to A2IGA</string>
+	<string name="setting_install_in_a2iga_chooser_title">Find and select «A2IGA»</string>
 	
 	<!-- о программе -->
 	<string name="about">About the program</string>

@@ -76,6 +76,11 @@ public class AdditionallyActivity extends PreferenceActivity {
 		setAssistantMode.setTitle(R.string.setting_assistantmode);
 		setAssistantMode.setSummary(R.string.setting_assistantmode_desc);
 		
+		// пункт для настройки A2IGA
+		Preference installInA2IGA = new Preference(this);
+		installInA2IGA.setKey("SETTING_INSTALL_IN_A2IGA");
+		installInA2IGA.setTitle(R.string.setting_install_in_a2iga);
+		
 		// пункт с версией приложения
 		Preference appVersion = new Preference(this);
 		appVersion.setKey("ABOUT_APP_VERSION");
@@ -122,6 +127,9 @@ public class AdditionallyActivity extends PreferenceActivity {
 		
 		if (Build.VERSION.SDK_INT >= 23) {
 			p.addPreference(setAssistantMode);
+			if (RebootManager.appIsInstalled(this, "o1310.rx1310.app.a2iga")) {
+				p.addPreference(installInA2IGA);
+			}
 		}
 		
 		p.addPreference(proMode);
@@ -148,6 +156,14 @@ public class AdditionallyActivity extends PreferenceActivity {
 			case "SETTING_ASSISTANTMODE":
 				startActivity(new Intent(android.provider.Settings.ACTION_VOICE_INPUT_SETTINGS));
 				RebootManager.showToast(getString(R.string.setting_assistantmode_guides), this);
+				break;
+				
+			case "SETTING_INSTALL_IN_A2IGA":
+				Intent sendPackageName = new Intent();
+				sendPackageName.setAction(Intent.ACTION_SEND);
+				sendPackageName.putExtra(Intent.EXTRA_TEXT, getPackageName());
+				sendPackageName.setType("text/plain");
+				startActivity(Intent.createChooser(sendPackageName, getString(R.string.setting_install_in_a2iga_chooser_title)));
 				break;
 				
 			case "SETTING_UNINSTALL_APP":

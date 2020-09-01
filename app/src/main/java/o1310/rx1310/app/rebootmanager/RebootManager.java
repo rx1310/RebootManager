@@ -54,6 +54,27 @@ public class RebootManager {
 		
 	}
 	
+	// установлено ли приложение?
+	public static boolean appIsInstalled(Context c, String packageName) {
+
+		PackageManager m = c.getPackageManager();
+
+		try {
+
+			m.getPackageInfo(packageName, PackageManager.GET_ACTIVITIES);
+
+			return true;
+
+		} catch(PackageManager.NameNotFoundException e) {
+
+			return false;
+
+		}
+
+		//return false;
+
+	}
+	
 	// вызов Toast
 	public static void showToast(String s, Context c) {
 		Toast.makeText(c, s, Toast.LENGTH_LONG).show();
